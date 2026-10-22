@@ -90,6 +90,16 @@ Product-specific business logic belongs in the relevant product repository unles
 
 Implementation documentation should identify which capabilities are implemented, partially implemented, planned or awaiting verification. Documentation must not be treated as proof that a feature is operational.
 
+
+## Documentation
+
+- [Platform Architecture](docs/ARCHITECTURE.md) — Overall architecture, service boundaries, integrations, reliability, and operations.
+- [Identity and Access Management](docs/IDENTITY_AND_ACCESS.md) — Accounts, authentication, SSO, MFA, roles, permissions, and identity security.
+- [Organisation and Tenancy](docs/ORGANISATION_AND_TENANCY.md) — Organisation lifecycle, tenant context, data isolation, and product access.
+- [Subscriptions and Billing](docs/SUBSCRIPTIONS_AND_BILLING.md) — Plans, trials, subscriptions, entitlements, billing, payments, and renewals.
+- [Notifications and Integrations](docs/NOTIFICATIONS_AND_INTEGRATIONS.md) — Notification delivery, event processing, integration contracts, retries, and reliability.
+
+
 ## Security Notice
 
 This repository is private because the platform contains security-sensitive shared infrastructure.
